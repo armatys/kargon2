@@ -1,0 +1,4 @@
+headers = argon2.h
+staticLibraries = libargon2.a
+libraryPaths.ios_x64 = libs/x86_64/lib
+libraryPaths.ios_arm64 = libs/arm64/lib
