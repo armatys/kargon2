@@ -1,5 +1,8 @@
+import pl.makenika.kargon2.buildsrc.configureGithubPublishing
+
 plugins {
     kotlin("multiplatform")
+    id("maven-publish")
 }
 
 kotlin {
@@ -27,3 +30,5 @@ kotlin {
         }
     }
 }
+
+configureGithubPublishing()

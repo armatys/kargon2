@@ -1,5 +1,8 @@
+import pl.makenika.kargon2.buildsrc.configureGithubPublishing
+
 plugins {
     kotlin("multiplatform")
+    id("maven-publish")
 }
 
 kotlin {
@@ -15,3 +18,5 @@ kotlin {
         val iosMain by getting
     }
 }
+
+configureGithubPublishing()

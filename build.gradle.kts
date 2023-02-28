@@ -4,7 +4,7 @@ plugins {
 
 allprojects {
     group = "pl.makenika.kargon2"
-    version = "1.0-SNAPSHOT"
+    version = System.getenv("VERSION") ?: "1.0-SNAPSHOT"
 
     repositories {
         google()
